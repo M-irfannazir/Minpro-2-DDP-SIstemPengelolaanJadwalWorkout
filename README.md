@@ -73,4 +73,28 @@ Jadi pengguna hanya punya 3 kesempatan untuk login.
 
 Dengan begitu menu ubah dan hapus tidak muncul untuk user biasa.
 
+4. Memilih menu
+
+Pengguna memasukkan pilihan menu. Program mengecek pilihan itu satu per satu dari kiri ke kanan:
+
+| Pengecekan        | Jika Ya                                                         | Akses               |
+| ----------------- | ----------------------------------------------------------------|---------------------|
+| 1. Tambah data?   | Tambah jadwal workout (hari, jenis, durasi, set, reps, status)  | admin dan user      | 
+| 2. Tampilkan data?| Tambah jadwal workout (hari, jenis, durasi, set, reps, status)  | admin dan user      |
+| 3. Ubah data? | Ubah jadwal workout                                                 | khusus admin        |
+| 4. Hapus data? | Hapus jadwal workout, dengan konfirmasi y/n                        | khusus admin        |
+| 5. Keluar?     | Tampil "Terima kasih"                                              | admin dan user      |
+
+Setelah menu 1 sampai 4 selesai, alur kembali ke "Pilihan menu". Pengguna bisa memilih menu lain terus-menerus (looping) sampai memilih keluar.
+
+5. Pilihan tidak valid
+
+Jika pilihan tidak cocok dengan kelima pengecekan, misalnya user biasa memilih 3 atau 4, atau mengetik angka di luar menu, tampil "Pilihan tidak valid atau tidak punya akses, coba lagi". Alur lalu kembali ke "Pilihan menu".
+
+6. Keluar atau ganti akun
+
+Setelah memilih menu 5 dan "Terima kasih" tampil, program bertanya Login akun lain? (y/n).
+
+Ya: kembali ke input username dan password.
+Tidak: program Selesai.
 
