@@ -57,16 +57,16 @@ Program dimulai dari Mulai. Pengguna langsung diminta memasukkan username dan pa
 
 Program mengecek: Login benar? Artinya, username ada di data akun (USERS) dan passwordnya cocok.
 
-* Tidak: tampil pesan "Username atau password salah". Program lalu mengecek Gagal 3 kali?
-** Tidak: pengguna kembali ke input username dan password.
-** Ya: tampil "Program dihentikan", lalu Selesai.
-* Ya: tampil "Selamat datang + role", lalu lanjut ke pengecekan role.
+- Tidak: tampil pesan "Username atau password salah". Program lalu mengecek Gagal 3 kali?
+* Tidak: pengguna kembali ke input username dan password.
+* Ya: tampil "Program dihentikan", lalu Selesai.
+- Ya: tampil "Selamat datang + role", lalu lanjut ke pengecekan role.
 
 Jadi pengguna hanya punya 3 kesempatan untuk login.
 
 3. Validasi role (admin atau user)
 
-Program mengecek: Role = admin?
+- Program mengecek: Role = admin?
 
 * Ya: tampil Menu admin (1-5), yaitu semua fitur.
 * Tidak (user biasa): tampil Menu user (1, 2, 5), yaitu hanya tambah, tampilkan, dan keluar.
