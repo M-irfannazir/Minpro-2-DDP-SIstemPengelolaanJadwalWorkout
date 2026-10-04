@@ -1,4 +1,6 @@
-# Minpro-2-DDP-SIstemPengelolaanJadwalWorkout
+<div align="center">
+
+<h1>SISTEM PENGELOLAAN JADWAL WORKOUT</h1>
 
 
 
@@ -97,5 +99,9 @@ Jika pilihan tidak cocok dengan kelima pengecekan, misalnya user biasa memilih 3
 
     * Ya: Kembali ke input username dan password.
     * Tidak : Program selesai
-    * Tidak: program Selesai.
+
+
+
+## Penjelasan Code
+
 
