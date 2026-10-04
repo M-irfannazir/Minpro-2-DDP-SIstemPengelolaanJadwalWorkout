@@ -2,7 +2,7 @@ import time
 import pwinput                    
 from prettytable import PrettyTable  
 
-# DATA AKUN (DICTIONARY) & HAK AKSES PER ROLE
+# DATA AKUN & HAK AKSES PER ROLE
 
 USERS = {
     "admin": {"password": "admin123", "role": "admin"},
@@ -19,14 +19,14 @@ AKSES_MENU = {
 MAKSIMAL_PERCOBAAN_LOGIN = 3
 
 
-# VARIABEL (tempat penyimpanan sementara / list utama)
+# VARIABEL 
 jadwal_workout = []  
 
 HARI_VALID = ["senin", "selasa", "rabu", "kamis", "jumat", "sabtu", "minggu"]
 STATUS_VALID = ["sudah", "belum"]
 
 
-# FUNGSI BANTUAN (VALIDASI INPUT + ERROR HANDLING)
+# FUNGSI BANTUAN/VALIDASI
 
 def input_angka(teks):
     while True:
@@ -87,7 +87,7 @@ def login():
             waktu_login = time.strftime("%d-%m-%Y %H:%M:%S")
             print(f"\n>> Login berhasil! Selamat datang, {username} (role: {role}).")
             print(f">> Waktu login: {waktu_login}")
-            time.sleep(1)   # jeda 1 detik supaya pesan login sempat terbaca
+            time.sleep(1)  
             return username, role
         else:
             percobaan += 1
@@ -100,7 +100,7 @@ def login():
     return None, None
 
 
-# FUNGSI UTAMA CRUD (Create, Read, Update, Delete)
+# FUNGSI UTAMA CRUD
 
 def tambah_data(username):
     print("\n=== TAMBAH JADWAL WORKOUT ===")
@@ -262,7 +262,7 @@ def hapus_data():
     tekan_enter()
 
 
-# MENU UTAMA (BERBEDA TAMPILAN SESUAI ROLE)
+# MENU UTAMA 
 
 def tampilkan_menu(role):
     print("\n=====================================")
@@ -309,7 +309,7 @@ def main():
         username, role = login()
 
         if username is None:
-            break   # gagal login 3 kali, keluar total dari program
+            break   
 
         menu_utama(username, role)
 
