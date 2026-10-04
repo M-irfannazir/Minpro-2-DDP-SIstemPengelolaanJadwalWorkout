@@ -15,6 +15,7 @@ Role	Akses Menu	Data yang terlihat
 
 Setiap data jadwal workout disimpan sebagai dictionary (bukan list biasa seperti di Miniproject 1), dengan field "pemilik" untuk menandai milik username siapa data itu, supaya data antar user bisa dipisahkan saat ditampilkan. Contoh:
 
+```sh
 {
     "pemilik": "irfan",
     "hari": "Senin",
@@ -24,7 +25,7 @@ Setiap data jadwal workout disimpan sebagai dictionary (bukan list biasa seperti
     "reps": 12,
     "status": "Belum"
 }
-
+```
 Data akun login juga disimpan sebagai dictionary (USERS), dan hak akses tiap role disimpan sebagai dictionary berisi himpunan menu yang boleh diakses (AKSES_MENU).
 
 Program juga mendukung ganti akun dalam satu kali program berjalan, tanpa harus menutup aplikasi supaya bisa langsung dites: 
