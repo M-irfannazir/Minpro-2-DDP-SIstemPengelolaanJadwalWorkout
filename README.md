@@ -4,7 +4,8 @@
 
 Aplikasi CLI berbasis Python untuk mengelola jadwal latihan olahraga mingguan, lengkap dengan sistem login dan dua role pengguna.
 
-![Python](https://img.shields.io/badge/Python-3.6%2B-blue) ![Interface](https://img.shields.io/badge/Interface-CLI-lightgrey)
+
+**Nama : Muhammad Irfan Nazir | Kelas : B | NIM : 070**
 
 </div>
 
@@ -83,7 +84,7 @@ Menu yang bisa diakses tiap role:
 
 Contoh satu data jadwal workout:
 
-```python
+```
 {
     "pemilik": "irfan",
     "hari": "Senin",
@@ -404,47 +405,47 @@ User hanya mendapat menu Tambah, Lihat Jadwal Workout Saya, dan Keluar.
 
 ### 5. Tambah Jadwal Workout
 
-![Tambah jadwal](screenshot/05-tambah-jadwal.png)
+<img width="939" height="413" alt="image" src="https://github.com/user-attachments/assets/550c67aa-825b-4d4a-9392-60da5a6eab53" />
 
 Data diisi satu per satu dan setiap input divalidasi. Contoh input yang salah (hari tidak valid, durasi bukan angka) ditolak dan diminta ulang.
 
 ### 6. Lihat Jadwal sebagai User
 
-![Lihat jadwal user](screenshot/06-lihat-jadwal-user.png)
+<img width="362" height="261" alt="Screenshot 2026-10-05 001434" src="https://github.com/user-attachments/assets/3d5b308e-cd7e-48bd-a254-bddbd40f4ef5" />
 
 User hanya melihat jadwal miliknya sendiri, tanpa kolom Pemilik.
 
 ### 7. Lihat Jadwal sebagai Admin
 
-![Lihat jadwal admin](screenshot/07-lihat-jadwal-admin.png)
+<img width="425" height="383" alt="image" src="https://github.com/user-attachments/assets/d4e4f529-b5f1-4d8a-bd0a-4f831628f71c" />
 
 Admin melihat jadwal semua user, lengkap dengan kolom Pemilik.
 
 ### 8. Ubah Jadwal Workout
 
-![Ubah jadwal](screenshot/08-ubah-jadwal.png)
+<img width="858" height="389" alt="Screenshot 2026-10-05 001728" src="https://github.com/user-attachments/assets/db11509e-0f14-4743-8fbc-f6acf9982a4c" />
 
 Admin memilih nomor data, lalu mengisi nilai baru. Field yang dikosongkan tidak berubah.
 
 ### 9. Hapus Jadwal Workout
 
-![Hapus jadwal](screenshot/09-hapus-jadwal.png)
+<img width="977" height="281" alt="image" src="https://github.com/user-attachments/assets/5c6df8c3-9a81-46dc-9f8a-ce518042dc81" />
 
 Sebelum data dihapus, program meminta konfirmasi `y` atau `n`.
 
 ### 10. Akses Ditolak untuk User
 
-![Akses ditolak](screenshot/10-akses-ditolak.png)
+<img width="383" height="500" alt="image" src="https://github.com/user-attachments/assets/41fc8e89-30af-41cc-a7cd-76efffd85982" />
 
 Saat user biasa memilih menu 3 atau 4, program menampilkan pesan bahwa pilihan tidak valid atau tidak punya akses.
 
 ### 11. Keluar dan Ganti Akun
 
-![Keluar dan ganti akun](screenshot/11-keluar-ganti-akun.png)
+<img width="340" height="177" alt="image" src="https://github.com/user-attachments/assets/bfb3c45e-347b-406d-b81b-885deddbae4c" />
 
 Setelah memilih menu 5, program bertanya apakah ingin login dengan akun lain.
 
+- Jika `y` maka ganti akun.
+- JIka `n` maka program berhenti.
+
 ---
-- Menyimpan data ke file (CSV atau JSON) agar tidak hilang.
-- Menambah fitur registrasi akun.
-- Menambah pencarian atau filter jadwal berdasarkan hari.
