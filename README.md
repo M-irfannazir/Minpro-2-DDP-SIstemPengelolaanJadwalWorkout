@@ -2,7 +2,7 @@
 
 <h1>SISTEM PENGELOLAAN JADWAL WORKOUT</h1>
 
-
+</div>
 
 
 
