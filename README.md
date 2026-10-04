@@ -380,8 +380,13 @@ Berikut tampilan program saat dijalankan di terminal.
 
 ### 1. Login Berhasil
 
-* <img width="902" height="125" alt="Screenshot 2026-10-04 215251" src="https://github.com/user-attachments/assets/92e3d65a-0af6-486a-ba0a-deb2c40c5444" />
-* <img width="868" height="122" alt="Screenshot 2026-10-04 221559" src="https://github.com/user-attachments/assets/01e06f30-be5e-47e0-82a6-377ac5ddfb6d" />
+- Admin
+<img width="902" height="125" alt="Screenshot 2026-10-04 215251" src="https://github.com/user-attachments/assets/92e3d65a-0af6-486a-ba0a-deb2c40c5444" />
+
+---
+
+- user
+<img width="868" height="122" alt="Screenshot 2026-10-04 221559" src="https://github.com/user-attachments/assets/01e06f30-be5e-47e0-82a6-377ac5ddfb6d" />
 
 Pengguna memasukkan username dan password (tampil `*`). Program menampilkan pesan selamat datang beserta role dan waktu login.
 
