@@ -45,7 +45,7 @@ nazir	 nazir123  user
 
 ## Flowchart & Penjelasan Alur
 
-<img width="1207" height="1272" alt="flowchart_jadwal_workout" src="https://github.com/user-attachments/assets/239b7788-c755-4f3d-aaa9-5065ccdf7aa9" />
+<img width="1507" height="990" alt="flowchart_program" src="https://github.com/user-attachments/assets/d8626910-03b9-4676-b549-5fae3956bf7c" />
 
 ### Penjelasan Flowchart: Alur Utama Sistem Pengelolaan Jadwal Workout
 
