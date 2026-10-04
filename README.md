@@ -46,3 +46,31 @@ nazir	 nazir123  user
 ## Flowchart & Penjelasan Alur
 
 <img width="1207" height="1272" alt="flowchart_jadwal_workout" src="https://github.com/user-attachments/assets/239b7788-c755-4f3d-aaa9-5065ccdf7aa9" />
+
+### Penjelasan Flowchart: Alur Utama Sistem Pengelolaan Jadwal Workout
+
+1. Awal program
+
+Program dimulai dari Mulai. Pengguna langsung diminta memasukkan username dan password.
+
+2. Validasi login
+
+Program mengecek: Login benar? Artinya, username ada di data akun (USERS) dan passwordnya cocok.
+
+* Tidak: tampil pesan "Username atau password salah". Program lalu mengecek Gagal 3 kali?
+** Tidak: pengguna kembali ke input username dan password.
+** Ya: tampil "Program dihentikan", lalu Selesai.
+* Ya: tampil "Selamat datang + role", lalu lanjut ke pengecekan role.
+
+Jadi pengguna hanya punya 3 kesempatan untuk login.
+
+3. Validasi role (admin atau user)
+
+Program mengecek: Role = admin?
+
+* Ya: tampil Menu admin (1-5), yaitu semua fitur.
+* Tidak (user biasa): tampil Menu user (1, 2, 5), yaitu hanya tambah, tampilkan, dan keluar.
+
+Dengan begitu menu ubah dan hapus tidak muncul untuk user biasa.
+
+
