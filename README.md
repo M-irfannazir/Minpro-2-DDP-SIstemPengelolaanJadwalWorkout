@@ -34,8 +34,8 @@ login sebagai user, tambah data, logout, lalu login sebagai admin untuk melihat 
 Akun contoh untuk login
 
 ```sh
-Username Password       Role
-admin	 admin123	admin
-irfan	 irfan123	user
-nazir	 nazir123	user
+Username Password  Role
+admin	 admin123  admin
+irfan	 irfan123  user
+nazir	 nazir123  user
 ``` 
