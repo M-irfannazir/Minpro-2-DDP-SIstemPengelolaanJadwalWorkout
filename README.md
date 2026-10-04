@@ -95,6 +95,7 @@ Jika pilihan tidak cocok dengan kelima pengecekan, misalnya user biasa memilih 3
 
 - Setelah memilih menu 5 dan "Terima kasih" tampil, program bertanya Login akun lain? (y/n).
 
-    * Ya: kembali ke input username dan password.
+    * Ya: Kembali ke input username dan password.
+    * Tidak : Program selesai
     * Tidak: program Selesai.
 
