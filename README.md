@@ -7,7 +7,7 @@
 
 
 
-## Deskripsi Singkat Program
+# Deskripsi Singkat Program
 
 Program ini adalah aplikasi CLI (command line) untuk mengelola jadwal latihan olahraga (workout) mingguan, dengan tambahan sistem login dan 2 role pengguna yang memiliki hak akses berbeda:
 
@@ -34,7 +34,7 @@ Program juga mendukung ganti akun dalam satu kali program berjalan, tanpa harus 
 
 login sebagai user, tambah data, logout, lalu login sebagai admin untuk melihat data yang baru saja ditambahkan user tadi.
 
-### Akun contoh untuk login
+## Akun contoh untuk login
 
 ```sh
 Username Password  Role
