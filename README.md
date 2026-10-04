@@ -28,6 +28,7 @@ Setiap data jadwal workout disimpan sebagai dictionary (bukan list biasa seperti
 Data akun login juga disimpan sebagai dictionary (USERS), dan hak akses tiap role disimpan sebagai dictionary berisi himpunan menu yang boleh diakses (AKSES_MENU).
 
 Program juga mendukung ganti akun dalam satu kali program berjalan, tanpa harus menutup aplikasi supaya bisa langsung dites: 
+
 login sebagai user, tambah data, logout, lalu login sebagai admin untuk melihat data yang baru saja ditambahkan user tadi.
 
 Akun contoh untuk login
