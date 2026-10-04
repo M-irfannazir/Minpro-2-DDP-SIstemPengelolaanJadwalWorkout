@@ -9,7 +9,7 @@
 
 Program ini adalah aplikasi CLI (command line) untuk mengelola jadwal latihan olahraga (workout) mingguan, dengan tambahan sistem login dan 2 role pengguna yang memiliki hak akses berbeda:
 
-Role	Akses Menu	Data yang terlihat
+Role Akses Menu	Data yang terlihat
 * admin	Tambah, Lihat, Ubah, Hapus, Keluar (CRUD lengkap)	Jadwal semua user
 * user	Tambah, Lihat, Keluar (tidak bisa mengubah/menghapus)	Hanya jadwal miliknya sendiri
 
@@ -32,7 +32,7 @@ Program juga mendukung ganti akun dalam satu kali program berjalan, tanpa harus 
 
 login sebagai user, tambah data, logout, lalu login sebagai admin untuk melihat data yang baru saja ditambahkan user tadi.
 
-Akun contoh untuk login
+### Akun contoh untuk login
 
 ```sh
 Username Password  Role
@@ -40,3 +40,9 @@ admin	 admin123  admin
 irfan	 irfan123  user
 nazir	 nazir123  user
 ``` 
+
+
+
+## Flowchart & Penjelasan Alur
+
+<img width="1207" height="1272" alt="flowchart_jadwal_workout" src="https://github.com/user-attachments/assets/239b7788-c755-4f3d-aaa9-5065ccdf7aa9" />
