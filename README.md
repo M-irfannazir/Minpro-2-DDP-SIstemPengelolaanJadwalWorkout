@@ -392,7 +392,7 @@ Jika username atau password salah, program menampilkan sisa percobaan. Setelah g
 
 ### 3. Menu Admin
 
-<img width="866" height="280" alt="Screenshot 2026-10-04 221745" src="https://github.com/user-attachments/assets/4d43ccdb-0fdc-4243-a5b6-97abe17adb99" />
+<img width="348" height="287" alt="Screenshot 2026-10-04 222158" src="https://github.com/user-attachments/assets/3ba1cbef-05bc-44e3-a66e-e3c6124599d9" />
 
 Admin mendapat menu lengkap: Tambah, Lihat Semua Jadwal, Ubah, Hapus, dan Keluar.
 
