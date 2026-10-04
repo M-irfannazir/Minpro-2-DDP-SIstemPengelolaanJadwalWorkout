@@ -20,7 +20,6 @@ Aplikasi CLI berbasis Python untuk mengelola jadwal latihan olahraga mingguan, l
 6. [Flowchart dan Penjelasan Alur](#flowchart-dan-penjelasan-alur)
 7. [Penjelasan Code](#penjelasan-code)
 8. [Screenshot Output](#screenshot-output)
-9. [Keterbatasan dan Pengembangan](#keterbatasan-dan-pengembangan)
 
 ---
 
