@@ -117,7 +117,6 @@ def tambah_data(username):
     print(f"\n>> Berhasil menambahkan jadwal untuk {username}: {data_baru}")
     tekan_enter()
 
-
 def tampilkan_data(username, role):
     print("\n=== DAFTAR JADWAL WORKOUT ===")
 
@@ -145,13 +144,11 @@ def tampilkan_data(username, role):
 
     tekan_enter()
 
-
 def tampilkan_data_ringkas():
     for i, data in enumerate(jadwal_workout, start=1):
         print(f"{i}. [{data['pemilik']}] {data['hari']} - {data['jenis']} - {data['durasi']} menit - "
             f"{data['set']} set x {data['reps']} reps - status: {data['status']}")
     print()
-
 
 def ubah_data():
     print("\n=== UBAH JADWAL WORKOUT ===")
@@ -217,7 +214,6 @@ def ubah_data():
     print(f"\n>> Data berhasil diubah menjadi: {jadwal_workout[index]}")
     tekan_enter()
 
-
 def hapus_data():
     print("\n=== HAPUS JADWAL WORKOUT ===")
 
@@ -271,7 +267,6 @@ def tampilkan_menu(role):
     print("5. Keluar")
     print("=====================================")
 
-
 def menu_utama(username, role):
     while True:
         tampilkan_menu(role)
@@ -292,7 +287,6 @@ def menu_utama(username, role):
         elif pilihan == "5":
             print("\nTerima kasih telah menggunakan program ini. Sampai jumpa!")
             break
-
 
 def main():
     print("Selamat datang di Sistem Pengelolaan Jadwal Workout!")
