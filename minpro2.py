@@ -2,7 +2,7 @@ import time
 import pwinput                    
 from prettytable import PrettyTable  
 
-# DATA AKUN & HAK AKSES PER ROLE
+# DATA AKUN & HAK AKSES SESUAI ROLE
 
 USERS = {
     "admin": {"password": "admin123", "role": "admin"},
