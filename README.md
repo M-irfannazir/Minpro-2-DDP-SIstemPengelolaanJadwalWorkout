@@ -106,26 +106,6 @@ Contoh satu data jadwal workout:
 | `reps` | integer | Jumlah repetisi per set, lebih dari 0 |
 | `status` | string | `Sudah` atau `Belum` |
 
----
-
-## Instalasi dan Cara Menjalankan
-
-Persyaratan: **Python 3.6 atau lebih baru**.
-
-Instal library tambahan (`time` sudah bawaan Python):
-
-```sh
-pip install pwinput prettytable
-```
-
-Jalankan program:
-
-```sh
-python nama_file.py
-```
-
-Ganti `nama_file.py` dengan nama file program.
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
