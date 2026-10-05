@@ -68,7 +68,7 @@ def tekan_enter():
     input("\nTekan ENTER untuk kembali ke menu...")
 
 
-def input_password_tersembunyi():
+def input_password():
     return pwinput.pwinput(prompt="Password: ")
 
 
@@ -80,7 +80,7 @@ def login():
     while percobaan < MAKSIMAL_PERCOBAAN_LOGIN:
         print("\n=== LOGIN - SISTEM PENGELOLAAN JADWAL WORKOUT ===")
         username = input("Username: ").strip()
-        password = input_password_tersembunyi()
+        password = input_password()
 
         if username in USERS and USERS[username]["password"] == password:
             role = USERS[username]["role"]
