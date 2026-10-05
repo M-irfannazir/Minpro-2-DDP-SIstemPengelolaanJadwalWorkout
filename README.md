@@ -98,9 +98,9 @@ Contoh satu data jadwal workout:
 
 | Field | Tipe | Keterangan |
 |---|---|---|
-| `pemilik` | string | Username yang membuat jadwal (terisi otomatis) |
+| `pemilik` | string | Username yang membuat jadwal |
 | `hari` | string | Senin sampai Minggu |
-| `jenis` | string | Jenis olahraga, tidak boleh kosong |
+| `jenis` | string | Jenis olahraga, (tidak boleh kosong) |
 | `durasi` | integer | Lama latihan dalam menit, lebih dari 0 |
 | `set` | integer | Jumlah set, lebih dari 0 |
 | `reps` | integer | Jumlah repetisi per set, lebih dari 0 |
