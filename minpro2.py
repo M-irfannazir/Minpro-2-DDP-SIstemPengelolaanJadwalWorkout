@@ -1,6 +1,6 @@
-import time                       
-import pwinput                    
-from prettytable import PrettyTable  
+import time
+import pwinput
+from prettytable import PrettyTable
 
 # DATA AKUN & HAK AKSES SESUAI ROLE
 
@@ -281,7 +281,6 @@ def tampilkan_menu(role):
 
 
 def menu_utama(username, role):
-    """Looping menu utama, berhenti kalau user pilih Keluar (5)."""
     while True:
         tampilkan_menu(role)
         pilihan = input("Pilih menu: ").strip()
