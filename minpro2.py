@@ -19,8 +19,8 @@ AKSES_MENU = {
 MAKSIMAL_PERCOBAAN_LOGIN = 3
 
 
-# VARIABEL 
-jadwal_workout = []  
+# VARIABEL
+jadwal_workout = []
 
 HARI_VALID = ["senin", "selasa", "rabu", "kamis", "jumat", "sabtu", "minggu"]
 STATUS_VALID = ["sudah", "belum"]
@@ -87,7 +87,7 @@ def login():
             waktu_login = time.strftime("%d-%m-%Y %H:%M:%S")
             print(f"\n>> Login berhasil! Selamat datang, {username} (role: {role}).")
             print(f">> Waktu login: {waktu_login}")
-            time.sleep(1)  
+            time.sleep(1)
             return username, role
         else:
             percobaan += 1
@@ -308,7 +308,7 @@ def main():
         username, role = login()
 
         if username is None:
-            break   
+            break
 
         menu_utama(username, role)
 
