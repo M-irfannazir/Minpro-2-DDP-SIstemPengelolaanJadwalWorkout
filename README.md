@@ -17,10 +17,9 @@ Aplikasi CLI berbasis Python untuk mengelola jadwal latihan olahraga mingguan, l
 2. [Fitur](#fitur)
 3. [Akun Contoh dan Hak Akses](#akun-contoh-dan-hak-akses)
 4. [Struktur Data](#struktur-data)
-5. [Instalasi dan Cara Menjalankan](#instalasi-dan-cara-menjalankan)
-6. [Flowchart dan Penjelasan Alur](#flowchart-dan-penjelasan-alur)
-7. [Penjelasan Code](#penjelasan-code)
-8. [Screenshot Output](#screenshot-output)
+5. [Flowchart dan Penjelasan Alur](#flowchart-dan-penjelasan-alur)
+6. [Penjelasan Code](#penjelasan-code)
+7. [Screenshot Output](#screenshot-output)
 
 ---
 
@@ -392,13 +391,13 @@ Jika username atau password salah, program menampilkan sisa percobaan. Setelah g
 
 <img width="348" height="287" alt="Screenshot 2026-10-04 222158" src="https://github.com/user-attachments/assets/3ba1cbef-05bc-44e3-a66e-e3c6124599d9" />
 
-Admin mendapat menu lengkap: Tambah, Lihat Semua Jadwal, Ubah, Hapus, dan Keluar.
+Admin mendapat menu lengkap: *Tambah, Lihat Semua Jadwal, Ubah, Hapus, dan Keluar.*
 
 ### 4. Menu User
 
 <img width="411" height="256" alt="image" src="https://github.com/user-attachments/assets/b469c919-ee8e-4240-9a06-8329149ee7ad" />
 
-User hanya mendapat menu Tambah, Lihat Jadwal Workout Saya, dan Keluar.
+User hanya mendapat menu: *Tambah, Lihat Jadwal Workout Saya, dan Keluar.*
 
 ### 5. Tambah Jadwal Workout
 
