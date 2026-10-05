@@ -18,13 +18,11 @@ AKSES_MENU = {
 
 MAKSIMAL_PERCOBAAN_LOGIN = 3
 
-
 # VARIABEL
 jadwal_workout = []
 
 HARI_VALID = ["senin", "selasa", "rabu", "kamis", "jumat", "sabtu", "minggu"]
 STATUS_VALID = ["sudah", "belum"]
-
 
 # FUNGSI BANTUAN/VALIDASI
 
@@ -36,7 +34,6 @@ def input_angka(teks):
         else:
             print(">> Input tidak valid! Harap masukkan angka lebih dari 0.\n")
 
-
 def input_hari():
     while True:
         hari = input("Masukkan hari (Senin-Minggu): ").strip()
@@ -44,7 +41,6 @@ def input_hari():
             return hari.capitalize()
         else:
             print(">> Hari tidak valid! Contoh yang benar: Senin, Selasa, dst.\n")
-
 
 def input_status():
     while True:
@@ -54,7 +50,6 @@ def input_status():
         else:
             print(">> Status tidak valid! Isi 'Sudah' atau 'Belum'.\n")
 
-
 def input_teks(teks, nama_field):
     while True:
         nilai = input(teks).strip()
@@ -63,14 +58,11 @@ def input_teks(teks, nama_field):
         else:
             print(f">> {nama_field} tidak boleh kosong! Coba lagi.\n")
 
-
 def tekan_enter():
     input("\nTekan ENTER untuk kembali ke menu...")
 
-
 def input_password():
     return pwinput.pwinput(prompt="Password: ")
-
 
 # FUNGSI LOGIN
 
