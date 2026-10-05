@@ -84,7 +84,7 @@ Menu yang bisa diakses tiap role:
 
 Contoh satu data jadwal workout:
 
-```
+```python
 {
     "pemilik": "irfan",
     "hari": "Senin",
