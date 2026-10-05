@@ -129,6 +129,7 @@ Ganti `nama_file.py` dengan nama file program.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
 ---
 
 ## Flowchart dan Penjelasan Alur
@@ -186,6 +187,7 @@ Setelah memilih menu 5 dan "Terima kasih" tampil, program bertanya **Login akun 
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ---
 
@@ -381,6 +383,7 @@ if __name__ == "__main__":
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
 ---
 
 ## Screenshot Output
@@ -464,5 +467,6 @@ Setelah memilih menu 5, program bertanya apakah ingin login dengan akun lain.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ---
