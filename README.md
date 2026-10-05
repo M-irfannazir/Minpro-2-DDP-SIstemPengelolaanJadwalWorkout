@@ -126,6 +126,9 @@ python nama_file.py
 
 Ganti `nama_file.py` dengan nama file program.
 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ---
 
 ## Flowchart dan Penjelasan Alur
@@ -180,6 +183,9 @@ Setelah memilih menu 5 dan "Terima kasih" tampil, program bertanya **Login akun 
 
 - **Ya:** kembali ke input username dan password.
 - **Tidak:** program **Selesai**.
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ---
 
@@ -372,6 +378,9 @@ if __name__ == "__main__":
 | Function | `login()`, `tambah_data()`, `ubah_data()`, dan lainnya |
 | Library | `time`, `pwinput`, `prettytable` |
 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ---
 
 ## Screenshot Output
@@ -452,5 +461,8 @@ Setelah memilih menu 5, program bertanya apakah ingin login dengan akun lain.
 
 - Jika `y` maka ganti akun.
 - JIka `n` maka program berhenti.
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ---
